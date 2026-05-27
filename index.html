@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Converter</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; color: #333; }
+        .hero { background: linear-gradient(135deg, #1a5c1a, #2e8b3e); color: #fff; text-align: center; padding: 80px 24px 60px; }
+        .hero h1 { font-size: 42px; margin-bottom: 12px; }
+        .hero p { font-size: 18px; opacity: 0.9; max-width: 520px; margin: 0 auto 32px; }
+        .badge { display: inline-block; }
+        .badge img { height: 54px; border-radius: 12px; }
+        .features { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+        .features h2 { text-align: center; font-size: 24px; margin-bottom: 32px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+        .card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        .card h3 { font-size: 16px; margin-bottom: 6px; }
+        .card p { font-size: 14px; color: #666; }
+        .icon { font-size: 28px; margin-bottom: 12px; }
+        footer { text-align: center; padding: 40px 24px; color: #888; font-size: 13px; border-top: 1px solid #eee; }
+        footer a { color: #2E7D32; text-decoration: none; margin: 0 12px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Contacts Converter</h1>
+    <p>Export, import, and manage your contacts with ease. Excel, CSV, vCard, PDF, and Google Contacts — all in one app.</p>
+    <a class="badge" href="https://apps.apple.com/app/id6446582199">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+    </a>
+</div>
+
+<div class="features">
+    <h2>Features</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="icon">📊</div>
+            <h3>Excel Export & Import</h3>
+            <p>Convert contacts to .xlsx spreadsheets or import contacts from Excel files.</p>
+        </div>
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>CSV & PDF Export</h3>
+            <p>Export contacts as CSV for spreadsheets or as beautifully formatted PDF contact cards.</p>
+        </div>
+        <div class="card">
+            <div class="icon">📇</div>
+            <h3>vCard Support</h3>
+            <p>Export and import standard .vcf vCard files for cross-platform compatibility.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🔄</div>
+            <h3>Google Contacts Sync</h3>
+            <p>Sync your contacts directly to your Google account with one tap.</p>
+        </div>
+        <div class="card">
+            <div class="icon">🧹</div>
+            <h3>Contacts Cleanup</h3>
+            <p>Find and merge duplicate contacts, fix incomplete entries, and clean your address book.</p>
+        </div>
+        <div class="card">
+            <div class="icon">📁</div>
+            <h3>File Transfer</h3>
+            <p>Transfer contact files between your phone and computer over Wi-Fi.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>
+        <a href="https://www.notion.so/privacy-policy-36df674757c380838a20dd3d7112f57a">Privacy Policy</a>
+        <a href="https://albanapp.notion.site/albanapp/Service-Usage-Agreement-6d187f737e0b498f9ca9cc7365fe5fb1">Terms & Conditions</a>
+        <a href="mailto:chasonjia.dev@gmail.com">Contact Us</a>
+    </p>
+    <p style="margin-top: 12px;">&copy; 2026 GA App. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
